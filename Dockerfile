@@ -1,4 +1,4 @@
- FROM ubuntu:18.04
+FROM ubuntu:18.04
 
 # Prerequisites
 RUN apt update && apt install -y curl git unzip xz-utils zip libglu1-mesa openjdk-8-jdk wget
@@ -28,9 +28,4 @@ ENV PATH "$PATH:/home/developer/flutter/bin"
 # Run basic check to download Dark SDK
 RUN flutter doctor
 
-
-#WORKDIR /app #Directory in Docker
-#COPY pubspec.yaml .
-#RUN flutter pub get
-#COPY . .
-#CMD [ "flutter","run" ]
+COPY . .
