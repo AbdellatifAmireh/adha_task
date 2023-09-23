@@ -1,10 +1,8 @@
-import 'package:adha_task/src/features/core/screens/review_details/review_details_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:intl_phone_field/intl_phone_field.dart';
 
 import '../../../../common_widgets/popup/popup_success.dart';
-import '../../../../constants/sizes.dart';
 import '../../controllers/application_controller.dart';
 import '../../models/application_model.dart';
 
@@ -42,6 +40,7 @@ Future<dynamic> update_referal_popup(BuildContext context, String? id,
                       ApplicationModel applicationData =
                           snapshot.data as ApplicationModel;
 
+                      // ignore: unused_local_variable
                       final id =
                           TextEditingController(text: applicationData.id);
                       final referralNameText = TextEditingController(
@@ -57,7 +56,7 @@ Future<dynamic> update_referal_popup(BuildContext context, String? id,
                                 controller: referralNameText,
                                 decoration: InputDecoration(
                                     labelText: "Referral Name",
-                                    hintText: "Referal Name"),
+                                    hintText: "Referral Name"),
 
                                 // initialValue:
                                 //     applicationData.propertyIncome2.toString(),

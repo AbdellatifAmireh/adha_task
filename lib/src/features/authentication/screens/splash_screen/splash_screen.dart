@@ -1,8 +1,6 @@
 import 'package:adha_task/src/constants/image_strings.dart';
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 
-import '../../controllers/splash_screen_controller.dart';
 import '../welcome/welcome_screen.dart';
 
 class TSplashScreen extends StatefulWidget {

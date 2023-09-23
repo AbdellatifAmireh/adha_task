@@ -1,5 +1,4 @@
 import 'package:adha_task/src/features/authentication/models/user_model.dart';
-import 'package:adha_task/src/features/core/screens/landing/landing_screen.dart';
 import 'package:adha_task/src/repository/user_repository/user_repository.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';

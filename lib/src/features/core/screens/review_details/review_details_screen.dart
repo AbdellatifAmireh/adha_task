@@ -1,3 +1,5 @@
+// ignore_for_file: must_be_immutable
+
 import 'package:adha_task/src/features/core/screens/update_details/update_details_screen.dart';
 import 'package:adha_task/src/repository/authentication_repository/authentication_repository.dart';
 import 'package:flutter/material.dart';

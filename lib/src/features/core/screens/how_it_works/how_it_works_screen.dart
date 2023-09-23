@@ -1,3 +1,5 @@
+// ignore_for_file: must_be_immutable
+
 import 'package:adha_task/src/features/core/screens/review_details/review_details_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';

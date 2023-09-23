@@ -1,3 +1,5 @@
+// ignore_for_file: unused_local_variable, must_be_immutable
+
 import 'package:adha_task/src/constants/text_strings.dart';
 import 'package:adha_task/src/features/core/screens/update_details/widgets/locations_dropdown.dart';
 import 'package:flutter/material.dart';

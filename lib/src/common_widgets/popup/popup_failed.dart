@@ -1,6 +1,4 @@
-import 'package:adha_task/src/features/core/screens/landing/landing_screen.dart';
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 
 Future<dynamic> popup_failed(BuildContext context) {
   return showModalBottomSheet(

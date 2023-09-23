@@ -1,4 +1,5 @@
-import 'package:flutter/material.dart';
+// ignore_for_file: unused_element
+
 import 'package:get/get.dart';
 
 import '../screens/welcome/welcome_screen.dart';
